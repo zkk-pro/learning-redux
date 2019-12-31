@@ -2,7 +2,7 @@
 ## 安装
 
 ```javascript
-yarn add redux react-redux react-thunk
+yarn add redux react-redux redux-thunk
 ```
 
 ## 使用Provider组件
