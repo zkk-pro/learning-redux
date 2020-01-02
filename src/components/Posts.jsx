@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { fetchPosts } from '../actions/postActions'
 
-
 class Posts extends Component {
   // constructor(props) {
   //   super(props)
@@ -34,7 +33,7 @@ class Posts extends Component {
 }
 
 // 对store 的方法和state规定具体的数据类型
-PropTypes.propTypes = {
+Posts.propTypes = {
   fetchPosts: PropTypes.func.isRequired,
   posts: PropTypes.array.isRequired
 }
